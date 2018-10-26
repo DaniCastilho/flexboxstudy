@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 30px;
+  display: flex;
+  border: 5px dotted red;
+}
+
+ul.column {
+  border: 5px dotted blue;
+  flex-direction: column;
+}
+
+ul.row-reverse {
+  border: 5px dotted green;
+  flex-direction: row-reverse;
+}
+
+li {
+  border: 1px solid #999;
+  margin: 0.5em;
+  padding: 0.5em;
+}
